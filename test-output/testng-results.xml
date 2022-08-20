@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-20T21:01:17 IST" name="Suite" finished-at="2022-08-20T21:01:37 IST" duration-ms="19691">
+    <groups>
+    </groups>
+    <test started-at="2022-08-20T21:01:17 IST" name="Validating Page" finished-at="2022-08-20T21:01:22 IST" duration-ms="4328">
+      <class name="practice.eCartApp.ValidateTest">
+        <test-method signature="cartApp()[pri:0, instance:practice.eCartApp.ValidateTest@48e64352]" started-at="2022-08-20T21:01:17 IST" name="cartApp" finished-at="2022-08-20T21:01:21 IST" duration-ms="4295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartApp -->
+      </class> <!-- practice.eCartApp.ValidateTest -->
+    </test> <!-- Validating Page -->
+    <test started-at="2022-08-20T21:01:17 IST" name="Validating Cart" finished-at="2022-08-20T21:01:37 IST" duration-ms="19691">
+      <class name="practice.eCartApp.HomePageTest">
+        <test-method signature="homePageNavigation()[pri:1, instance:practice.eCartApp.HomePageTest@3676ac27]" started-at="2022-08-20T21:01:17 IST" name="homePageNavigation" finished-at="2022-08-20T21:01:25 IST" duration-ms="7786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method signature="cartPromoPage()[pri:2, instance:practice.eCartApp.HomePageTest@3676ac27]" started-at="2022-08-20T21:01:25 IST" name="cartPromoPage" finished-at="2022-08-20T21:01:36 IST" duration-ms="11307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPromoPage -->
+        <test-method signature="checkoutPage()[pri:3, instance:practice.eCartApp.HomePageTest@3676ac27]" started-at="2022-08-20T21:01:36 IST" name="checkoutPage" finished-at="2022-08-20T21:01:37 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPage -->
+        <test-method is-config="true" signature="aftTest()[pri:0, instance:practice.eCartApp.HomePageTest@3676ac27]" started-at="2022-08-20T21:01:37 IST" name="aftTest" finished-at="2022-08-20T21:01:37 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+      </class> <!-- practice.eCartApp.HomePageTest -->
+    </test> <!-- Validating Cart -->
+  </suite> <!-- Suite -->
+</testng-results>

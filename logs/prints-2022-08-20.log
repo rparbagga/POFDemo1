@@ -1,0 +1,7 @@
+21:00:44.937 [TestNG-tests-1] INFO  resources.base - Code applied ..!
+21:00:45.011 [TestNG-tests-1] INFO  resources.base - Promo code applied successfully and proceed
+21:00:45.312 [TestNG-tests-1] INFO  resources.base - Checked out Cart successfully
+21:01:21.992 [TestNG-tests-2] INFO  resources.base - Navigated to Url
+21:01:25.485 [TestNG-tests-1] INFO  resources.base - Items were added to cart
+21:01:36.733 [TestNG-tests-1] INFO  resources.base - Code applied ..!
+21:01:36.794 [TestNG-tests-1] INFO  resources.base - Promo code applied successfully and proceed

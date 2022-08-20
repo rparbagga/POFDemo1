@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-20T21:00:25 IST" name="Suite" finished-at="2022-08-20T21:00:45 IST" duration-ms="20095">
+    <groups>
+    </groups>
+    <test started-at="2022-08-20T21:00:25 IST" name="Validating Page" finished-at="2022-08-20T21:00:30 IST" duration-ms="4897">
+      <class name="practice.eCartApp.ValidateTest">
+        <test-method signature="cartApp()[pri:0, instance:practice.eCartApp.ValidateTest@1eef9aef]" started-at="2022-08-20T21:00:25 IST" name="cartApp" finished-at="2022-08-20T21:00:30 IST" duration-ms="4615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartApp -->
+        <test-method is-config="true" signature="aftTest()[pri:0, instance:practice.eCartApp.ValidateTest@1eef9aef]" started-at="2022-08-20T21:00:30 IST" name="aftTest" finished-at="2022-08-20T21:00:30 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+      </class> <!-- practice.eCartApp.ValidateTest -->
+    </test> <!-- Validating Page -->
+    <test started-at="2022-08-20T21:00:25 IST" name="Validating Cart" finished-at="2022-08-20T21:00:45 IST" duration-ms="20095">
+      <class name="practice.eCartApp.HomePageTest">
+        <test-method signature="homePageNavigation()[pri:1, instance:practice.eCartApp.HomePageTest@782a4fff]" started-at="2022-08-20T21:00:25 IST" name="homePageNavigation" finished-at="2022-08-20T21:00:33 IST" duration-ms="8226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method signature="cartPromoPage()[pri:2, instance:practice.eCartApp.HomePageTest@782a4fff]" started-at="2022-08-20T21:00:33 IST" name="cartPromoPage" finished-at="2022-08-20T21:00:45 IST" duration-ms="11324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPromoPage -->
+        <test-method signature="checkoutPage()[pri:3, instance:practice.eCartApp.HomePageTest@782a4fff]" started-at="2022-08-20T21:00:45 IST" name="checkoutPage" finished-at="2022-08-20T21:00:45 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPage -->
+        <test-method is-config="true" signature="aftTest()[pri:0, instance:practice.eCartApp.HomePageTest@782a4fff]" started-at="2022-08-20T21:00:45 IST" name="aftTest" finished-at="2022-08-20T21:00:45 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+      </class> <!-- practice.eCartApp.HomePageTest -->
+    </test> <!-- Validating Cart -->
+  </suite> <!-- Suite -->
+</testng-results>
