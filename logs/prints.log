@@ -1,7 +1,5 @@
-21:01:37.070 [TestNG-tests-1] INFO  resources.base - Checked out Cart successfully
-13:28:06.578 [TestNG-tests-1] INFO  resources.base - Items were added to cart
-13:28:17.729 [TestNG-tests-1] INFO  resources.base - Code applied ..!
-13:28:17.770 [TestNG-tests-1] INFO  resources.base - Promo code applied successfully and proceed
-13:31:31.473 [TestNG-tests-1] INFO  resources.base - Items were added to cart
-13:31:42.636 [TestNG-tests-1] INFO  resources.base - Code applied ..!
-13:31:42.683 [TestNG-tests-1] INFO  resources.base - Promo code applied successfully and proceed
+13:38:54.228 [TestNG-tests-2] INFO  resources.base - Navigated to Url
+13:38:57.666 [TestNG-tests-1] INFO  resources.base - Items were added to cart
+13:39:08.837 [TestNG-tests-1] INFO  resources.base - Code applied ..!
+13:39:08.889 [TestNG-tests-1] INFO  resources.base - Promo code applied successfully and proceed
+13:39:09.062 [TestNG-tests-1] INFO  resources.base - Checked out Cart successfully
