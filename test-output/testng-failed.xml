@@ -13,14 +13,4 @@
       </class> <!-- practice.eCartApp.ValidateTest -->
     </classes>
   </test> <!-- Validating Page(failed) -->
-  <test thread-count="5" parallel="tests" name="Validating Cart(failed)">
-    <classes>
-      <class name="practice.eCartApp.HomePageTest">
-        <methods>
-          <include name="aftTest"/>
-          <include name="checkoutPage"/>
-        </methods>
-      </class> <!-- practice.eCartApp.HomePageTest -->
-    </classes>
-  </test> <!-- Validating Cart(failed) -->
 </suite> <!-- Failed suite [Suite] -->
