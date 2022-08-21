@@ -16,7 +16,7 @@ public class Checkout {
 	
 	
 	@FindBys({  
-		@FindBy(css = "div.wrapperTwo"), //failed intentionally
+		@FindBy(css = "div.wrapperTwoo"), //failed intentionally
 		@FindBy(xpath = "//div/select")
 	})
 	public WebElement dropdown;

@@ -1,37 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-20T21:00:25 IST" name="Suite" finished-at="2022-08-20T21:00:45 IST" duration-ms="20095">
+  <suite started-at="2022-08-21T13:27:57 IST" name="Suite" finished-at="2022-08-21T13:28:18 IST" duration-ms="20826">
     <groups>
     </groups>
-    <test started-at="2022-08-20T21:00:25 IST" name="Validating Page" finished-at="2022-08-20T21:00:30 IST" duration-ms="4897">
+    <test started-at="2022-08-21T13:27:57 IST" name="Validating Page" finished-at="2022-08-21T13:28:03 IST" duration-ms="5570">
       <class name="practice.eCartApp.ValidateTest">
-        <test-method signature="cartApp()[pri:0, instance:practice.eCartApp.ValidateTest@1eef9aef]" started-at="2022-08-20T21:00:25 IST" name="cartApp" finished-at="2022-08-20T21:00:30 IST" duration-ms="4615" status="PASS">
+        <test-method signature="cartApp()[pri:0, instance:practice.eCartApp.ValidateTest@2755d705]" started-at="2022-08-21T13:27:57 IST" name="cartApp" finished-at="2022-08-21T13:28:03 IST" duration-ms="5276" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [GREENMART] but found [GREENKART]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [GREENMART] but found [GREENKART]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at practice.eCartApp.ValidateTest.cartApp(ValidateTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartApp -->
-        <test-method is-config="true" signature="aftTest()[pri:0, instance:practice.eCartApp.ValidateTest@1eef9aef]" started-at="2022-08-20T21:00:30 IST" name="aftTest" finished-at="2022-08-20T21:00:30 IST" duration-ms="251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftTest -->
       </class> <!-- practice.eCartApp.ValidateTest -->
     </test> <!-- Validating Page -->
-    <test started-at="2022-08-20T21:00:25 IST" name="Validating Cart" finished-at="2022-08-20T21:00:45 IST" duration-ms="20095">
+    <test started-at="2022-08-21T13:27:57 IST" name="Validating Cart" finished-at="2022-08-21T13:28:18 IST" duration-ms="20826">
       <class name="practice.eCartApp.HomePageTest">
-        <test-method signature="homePageNavigation()[pri:1, instance:practice.eCartApp.HomePageTest@782a4fff]" started-at="2022-08-20T21:00:25 IST" name="homePageNavigation" finished-at="2022-08-20T21:00:33 IST" duration-ms="8226" status="PASS">
+        <test-method signature="homePageNavigation()[pri:1, instance:practice.eCartApp.HomePageTest@60cf80e7]" started-at="2022-08-21T13:27:57 IST" name="homePageNavigation" finished-at="2022-08-21T13:28:06 IST" duration-ms="8824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageNavigation -->
-        <test-method signature="cartPromoPage()[pri:2, instance:practice.eCartApp.HomePageTest@782a4fff]" started-at="2022-08-20T21:00:33 IST" name="cartPromoPage" finished-at="2022-08-20T21:00:45 IST" duration-ms="11324" status="PASS">
+        <test-method signature="cartPromoPage()[pri:2, instance:practice.eCartApp.HomePageTest@60cf80e7]" started-at="2022-08-21T13:28:06 IST" name="cartPromoPage" finished-at="2022-08-21T13:28:17 IST" duration-ms="11189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartPromoPage -->
-        <test-method signature="checkoutPage()[pri:3, instance:practice.eCartApp.HomePageTest@782a4fff]" started-at="2022-08-20T21:00:45 IST" name="checkoutPage" finished-at="2022-08-20T21:00:45 IST" duration-ms="301" status="PASS">
+        <test-method signature="checkoutPage()[pri:3, instance:practice.eCartApp.HomePageTest@60cf80e7]" started-at="2022-08-21T13:28:17 IST" name="checkoutPage" finished-at="2022-08-21T13:28:17 IST" duration-ms="16" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using By.chained({By.cssSelector: div.wrapperTwoo,By.xpath: //div/select})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HAMILTON-QA1L', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.cssSelector: div.wrapperTwoo,By.xpath: //div/select})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HAMILTON-QA1L', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.support.pagefactory.ByChained.findElement(ByChained.java:56)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:80)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy27.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
+at locators.Checkout.Select(Checkout.java:44)
+at practice.eCartApp.HomePageTest.checkoutPage(HomePageTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutPage -->
-        <test-method is-config="true" signature="aftTest()[pri:0, instance:practice.eCartApp.HomePageTest@782a4fff]" started-at="2022-08-20T21:00:45 IST" name="aftTest" finished-at="2022-08-20T21:00:45 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="aftTest()[pri:0, instance:practice.eCartApp.HomePageTest@60cf80e7]" started-at="2022-08-21T13:28:17 IST" name="aftTest" finished-at="2022-08-21T13:28:18 IST" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftTest -->

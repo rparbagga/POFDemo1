@@ -1,4 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.97 s - in TestSuite
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 21.863 s <<< FAILURE! - in TestSuite
+cartApp(practice.eCartApp.ValidateTest)  Time elapsed: 5.542 s  <<< FAILURE!
+java.lang.AssertionError: expected [GREENMART] but found [GREENKART]
+	at practice.eCartApp.ValidateTest.cartApp(ValidateTest.java:27)
+
+checkoutPage(practice.eCartApp.HomePageTest)  Time elapsed: 0.139 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.cssSelector: div.wrapperTwoo,By.xpath: //div/select})
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'HAMILTON-QA1L', ip: '192.168.29.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at practice.eCartApp.HomePageTest.checkoutPage(HomePageTest.java:73)
+
