@@ -26,7 +26,7 @@ public class ValidateTest extends base {
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/");
 		Assert.assertEquals(hm.gtext.getText(), "GREENKART");
 		log.info("Navigated to Url");
-		// go to deals > search tomato > print price and discount
+		//// go to deals > search tomato > print price and discount
 	}
 	
 	/*
