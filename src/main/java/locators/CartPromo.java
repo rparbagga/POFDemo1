@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -15,10 +16,10 @@ public class CartPromo {
 	
 	WebDriver driver;
 
-
+	//enter code, btn, getText, Go
 	
 	
-	@FindBy(css="input.promoCode")
+	@FindBy(how=How.CSS, using="input.promoCode")  //another syntax
 	public WebElement prcode;
 	
 	@FindBy(css="button.promoBtn")

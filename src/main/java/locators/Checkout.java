@@ -16,12 +16,12 @@ public class Checkout {
 	
 	
 	@FindBys({  
-		@FindBy(css = "div.wrapperTwo"), //failed intentionally
+		@FindBy(css = "div.wrapperTwo"), 		//failed intentionally
 		@FindBy(xpath = "//div/select")
 	})
 	public WebElement dropdown;
 	
-	@FindAll({    //Either Way
+	@FindAll({    									//Either Way
 	@FindBy(css="input.chkAgree"),
 	@FindBy(css="input[type='checkbox']")
 	})
@@ -35,6 +35,10 @@ public class Checkout {
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
+	
+	
+	
+	
 	
 	//Assert.assertTrue(chk.checkbox.isSelected()); It is deprecated
 	

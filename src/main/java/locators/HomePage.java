@@ -14,9 +14,9 @@ public class HomePage {
 
 	public WebDriver driver;
 
-	// Continue writing locators for homepage
 	
-	@FindBy(css ="div.brand.greenlogo")
+	
+	@FindBy(css ="div.brand.greenlogo")  //For ValidaTest TC
 	public WebElement gtext;
 
 	@FindBy(css = "img[alt='Cart']")
@@ -29,8 +29,7 @@ public class HomePage {
 	
 	
 
-	// @FindAll({@FindBy(css="h4.product-name")})
-	// static List<WebElement> allproducts; //for driver.findwebelements
+	
 
 	public HomePage(WebDriver driver) { 
 		this.driver = driver;
@@ -100,3 +99,9 @@ public class HomePage {
 	}
 
 }
+
+
+
+
+//@FindAll({@FindBy(css="h4.product-name")})
+	// static List<WebElement> allproducts; //for driver.findwebelements
