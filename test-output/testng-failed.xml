@@ -4,14 +4,13 @@
   <listeners>
     <listener class-name="practice.eCartApp.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Validating Cart(failed)">
+  <test thread-count="5" name="Validating Page(failed)">
     <classes>
-      <class name="practice.eCartApp.HomePageTest">
+      <class name="practice.eCartApp.ValidateTest">
         <methods>
-          <include name="aftTest"/>
-          <include name="checkoutPage"/>
+          <include name="cartApp"/>
         </methods>
-      </class> <!-- practice.eCartApp.HomePageTest -->
+      </class> <!-- practice.eCartApp.ValidateTest -->
     </classes>
-  </test> <!-- Validating Cart(failed) -->
+  </test> <!-- Validating Page(failed) -->
 </suite> <!-- Failed suite [Suite] -->

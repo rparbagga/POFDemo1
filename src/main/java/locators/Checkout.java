@@ -22,7 +22,7 @@ public class Checkout {
 	public WebElement dropdown;
 	
 	@FindAll({    									//Either Way
-	@FindBy(css="input.chkAgree"),
+	@FindBy(css="input.chkAgreee"),
 	@FindBy(css="input[type='checkbox']")
 	})
 	public WebElement checkbox;

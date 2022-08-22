@@ -59,7 +59,7 @@ public class HomePageTest extends base {
 		if (cpro.prtxt.isDisplayed()) {
 			log.info(cpro.prtxt.getText());  //instead of Syso we using logs
 		}
-		// Thread.sleep(8000);
+		
 		cpro.go.click();
 		log.info("Promo code applied successfully and proceed");
 	}
